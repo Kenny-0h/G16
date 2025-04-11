@@ -3,8 +3,9 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 ## 📂 Estrutura do Projeto
 
-- `Grafos.py` (arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
-- Arquivo `.dat`: contém os dados do grafo a ser lido.
+- `main.py` (arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
+- `visualização.ipynb`: contém a implementação relacionada à visualização dos dados.
+- Arquivos `.dat`: contém os dados do grafo a ser lido.
 - Saída no terminal e exportação das estatísticas para CSV.
 
 ## 📥 Entrada Esperada
@@ -47,10 +48,10 @@ Ao final do programa, é gerado um arquivo csv contendo uma tabela com as princi
 ## ▶️ Como Usar
 1. Execute o script:
 ```bash
-python Grafo.py
+python main.py
 ```
 
-2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado
+2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado(insira também a extensão .dat do arquivo)
 
 3. O programa irá:
   - Imprimir no terminal os dados dos nós, vértices e arestas (para fins de depuração)
@@ -59,10 +60,12 @@ python Grafo.py
 
 ## 🛠️ Bibliotecas Utilizadas
   - collections (para defaultdict e deque)
-
   - math
-
   - pandas (para exportar estatísticas em formato CSV)
 
-## 📌 Observações
-No programa, foi aplicado o algoritmo de Floyd-Warshall para a construção da matriz de distâncias.
+## 📌 Bibliografia e Referências
+https://www.programiz.com/dsa/floyd-warshall-algorithm
+https://www.w3schools.com/python/pandas/pandas_dataframes.asp
+https://www.tutorialspoint.com/python_data_structure/python_graphs.htm
+https://docs.python.org/3/library/collections.html#collections.deque
+https://docs.python.org/3/library/collections.html#collections.defaultdict
