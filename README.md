@@ -3,9 +3,9 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 ## 📂 Estrutura do Projeto
 
-- `Grafos.py` (ou arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
+- `Grafos.py` (arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
 - Arquivo `.dat`: contém os dados do grafo a ser lido.
-- Saída no terminal e opção de exportação das estatísticas para CSV.
+- Saída no terminal e exportação das estatísticas para CSV.
 
 ## 📥 Entrada Esperada
 
@@ -50,6 +50,7 @@ Ao final do programa, é gerado um arquivo csv contendo uma tabela com as princi
 
 ```bash
 python Grafo.py
+```bash
 
 2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado
 
