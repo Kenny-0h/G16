@@ -49,7 +49,7 @@ Ao final do programa, é gerado um arquivo csv contendo uma tabela com as princi
 1. Execute o script:
 
 ```bash
-python nome_do_arquivo.py
+python Grafo.py
 
 2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado
 
