@@ -3,7 +3,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 ## 📂 Estrutura do Projeto
 
-- `Implementação.py` (ou arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
+- `Grafos.py` (ou arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
 - Arquivo `.dat`: contém os dados do grafo a ser lido.
 - Saída no terminal e opção de exportação das estatísticas para CSV.
 
