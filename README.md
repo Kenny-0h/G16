@@ -53,7 +53,7 @@ python Grafo.py
 2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado
 
 3. O programa irá:
-  - Imprimir no terminal os daos dos nós, vértices e arestas (para fins de depuração)
+  - Imprimir no terminal os dados dos nós, vértices e arestas (para fins de depuração)
   - Imprimir as estatísticas calculadas
   - Gerar um arquivo '.csv' contendo as estatísticas (exceto a intermediação)
 
