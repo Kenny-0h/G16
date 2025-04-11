@@ -2,6 +2,8 @@ from collections import defaultdict, deque
 import math
 import pandas as pd
 
+
+ #------------Definição do grafo-------------
 class Grafo:
     def __init__(self):
         self.vertices = set()
@@ -12,7 +14,7 @@ class Grafo:
 
         self.arestas_nao_requeridas = []
         self.arcos_nao_requeridos = []
-
+        
     def adicionar_no_requerido(self, id_no, demanda, custo_servico):
         self.nos_requeridos[id_no] = {
             "demanda": demanda,
@@ -56,6 +58,11 @@ class Grafo:
         })
         self.vertices.update([de, para])
 
+#------------Definição do grafo---------------------
+
+    
+
+#-------------Calculos Estatísticos------------------
     def total_vertices(self):
         return len(self.vertices)
 
@@ -179,7 +186,11 @@ class Grafo:
                         if dist[s][v] + dist[v][t] == caminho_min:
                             intermed[v] += 1
         return intermed
+#-------------Calculos Estatísticos------------------
 
+
+
+#-------------Leitura do Arquivo------------------
 def ler_grafo_de_arquivo(caminho_arquivo):
     grafo = Grafo()
     lendo_nos = lendo_arestas_req = lendo_arcos_req = lendo_arestas_nreq = lendo_arcos_nreq = False
@@ -226,7 +237,12 @@ def ler_grafo_de_arquivo(caminho_arquivo):
             elif lendo_arcos_nreq and linha.startswith("NrA"):
                 grafo.adicionar_arco_nao_requerido(int(partes[1]), int(partes[2]), int(partes[3]))
     return grafo
+#-------------Leitura do Arquivo------------------------
 
+
+
+
+#-------------Gerar csv---------------------------------
 def exportar_estatisticas_para_csv(grafo, nome_arquivo):
     dados = {
         "Total de vértices": grafo.total_vertices(),
