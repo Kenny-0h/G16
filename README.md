@@ -45,12 +45,9 @@ Cada seção deve conter linhas com os dados de acordo com o seguinte formato:
 Ao final do programa, é gerado um arquivo csv contendo uma tabela com as principais estatísticas calculadas (com excesão de intermediação) usando a função `exportar_estatisticas_para_csv(grafo, nome_arquivo)`.
 
 ## ▶️ Como Usar
-
+```bash
 1. Execute o script:
-
-```bash
 python Grafo.py
-```bash
 
 2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado
 
@@ -65,7 +62,7 @@ python Grafo.py
   - math
 
   - pandas (para exportar estatísticas em formato CSV)
-
+```
 
 ## 📌 Observações
 No programa, foi aplicado o algoritmo de Floyd-Warshall para a construção da matriz de distâncias.
