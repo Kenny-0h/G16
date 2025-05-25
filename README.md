@@ -62,11 +62,11 @@ Ao final do programa, é gerado um arquivo csv contendo uma tabela com as princi
 Ao final do programa, é gerado um arquivo de formatação `sol-`+nome_instancia+`.dat`
 
 ## ▶️ Como Usar
-1. Execute o script:
+1. Acesse o google cola pelo link do [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) e execut todas as partes do programa ou então execute o script:
 ```bash
-python main.py
+python visualização.ipynb
 ```
-2. Pelo terminal, digite  nome do arquivo '.dat' quando solicitado(Não é necessário que insira a extensão .dat do arquivo)
+2. Pelo terminal gerado pela cédula `visualização`, digite  nome do arquivo '.dat' quando solicitado(Não é necessário que insira a extensão .dat do arquivo)
 
 3. O programa irá:
 **Etapa 1(comentado)**
