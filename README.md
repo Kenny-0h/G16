@@ -86,7 +86,7 @@ para x= D caso o serviço seja o depósito, S caso seja outro serviço
      j= primeira extremidade do serviço
      k= seguda extremidade do serviço
     
-## 🛠️ Bibliotecas Utilizadas
+## 📚 Bibliotecas Utilizadas
   - collections (para defaultdict e deque)
   - math
   - pandas (para exportar estatísticas em formato CSV)
