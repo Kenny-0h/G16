@@ -16,6 +16,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 - grafo.py: contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo, bem como o cálculo das rotas
 - lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada
 - visualização.ipynb: coném a implementação relacionada á vizualização das estatísticas do grafo (comentadas) e a geração do arquivo `sol-` de cada instância (saída única)
+
 **OBS:** Caso não seja possível abrir o notebook pelo colab, o projeto também está disposto como arquivos separados no diretório
 ## 📥 Entrada Esperada
 O programa espera um arquivo `.dat` com seções identificadas pelas palavras-chave:
