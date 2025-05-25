@@ -1,6 +1,8 @@
 # Projeto_Grafos
 Repositório destinado para as entregas das etapas do trabalho prático da disciplina de Grafos. 
+ 
   A primeira etapa tem como objetivo ler, representar e analisar grafos com arestas e arcos que podem ser requeridos ou não, cada um com seus atributos de transporte, demanda e custo de serviço. O grafo é lido a partir de um arquivo `.dat` estruturado, e várias estatísticas são calculadas automaticamente.
+  
   A segunda tem como objetivo encontrar uma aprximação incial de um conjunto de rotas factíveis que solucionam o problema do caixeiro viajante no grafo misto dado em tempo mínimo. Nesta etapa, a qualidade da resposta é desfavorefida em função á um melor gasto temporal.
 
 ## 📂 Estrutura do Projeto
@@ -13,7 +15,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 - Nesta etpa, todo o projeto foi unificado em único [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) do Google Colab que é dividido da seguinte forma:
 - grafo.py: contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo, bem como o cálculo das rotas
 - lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada
-- visualização: coném a implementação relacionada á vizualização das estatísticas do grafo (comentadas) e a geração do arquivo `sol-` de cada instância (saída única)
+- visualização.ipynb: coném a implementação relacionada á vizualização das estatísticas do grafo (comentadas) e a geração do arquivo `sol-` de cada instância (saída única)
 - 
 ## 📥 Entrada Esperada
 O programa espera um arquivo `.dat` com seções identificadas pelas palavras-chave:
