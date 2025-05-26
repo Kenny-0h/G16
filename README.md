@@ -57,7 +57,7 @@ Cada seção deve conter linhas com os dados de acordo com o seguinte formato:
 - Descrição dos servições requeridos percorridos em cada rota
   
 ### 💾 Exportação
-**Etapa 1:(comentada)**
+**Etapa 1:**
 Ao final do programa, é gerado um arquivo csv contendo uma tabela com as principais estatísticas calculadas (com excesão de intermediação) usando a função `exportar_estatisticas_para_csv(grafo, nome_arquivo)`.
 **Etapa 2**
 Ao final do programa, é gerado um arquivo de formatação `sol-`+nome_instancia+`.dat`
@@ -70,7 +70,7 @@ python visualização.ipynb
 2. Pelo terminal gerado pela cédula `visualização`, digite  nome do arquivo '.dat' quando solicitado(Não é necessário que insira a extensão .dat do arquivo)
 
 3. O programa irá:
-**Etapa 1(comentado)**
+**Etapa 1**
   - Imprimir no terminal os dados dos nós, vértices e arestas (para fins de depuração)
   - Imprimir as estatísticas calculadas
   - Gerar um arquivo '.csv' contendo as estatísticas (exceto a intermediação)
