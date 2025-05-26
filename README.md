@@ -98,5 +98,7 @@ https://www.w3schools.com/python/pandas/pandas_dataframes.asp
 https://www.tutorialspoint.com/python_data_structure/python_graphs.htm
 https://docs.python.org/3/library/collections.html#collections.deque
 https://docs.python.org/3/library/collections.html#collections.defaultdict
+
 STÜTZLE, Thomas et al. ACO algorithms for the traveling salesman problem. Evolutionary algorithms in engineering and computer science, v. 4, p. 163-183, 1999.
+
 CHATTERJEE, Sangit; CARRERA, Cecilia; LYNCH, Lucy A. Genetic algorithms and traveling salesman problems. European journal of operational research, v. 93, n. 3, p. 490-510, 1996.
