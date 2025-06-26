@@ -71,6 +71,7 @@ Cada seção deve conter linhas com os dados de acordo com o seguinte formato:
 ### 💾 Exportação
 **Etapa 1:**
 Ao final do programa, é gerado um arquivo csv contendo uma tabela com as principais estatísticas calculadas (com excesão de intermediação) usando a função `exportar_estatisticas_para_csv(grafo, nome_arquivo)`.
+
 **Etapa 2**
 Ao final do programa, é gerado um arquivo de formatação `sol-`+nome_instancia+`.dat`
 
@@ -84,10 +85,12 @@ python visualização.ipynb
 2. Pelo terminal gerado pela cédula `visualização`, digite todo o caminho do diretório em que os arquivos `.dat` estão quando solicitado
 
 3. O programa irá:
+
 **Etapa 1**
   - Imprimir no terminal os dados dos nós, vértices e arestas (para fins de depuração)
   - Imprimir as estatísticas calculadas
   - Gerar um arquivo '.csv' contendo as estatísticas (exceto a intermediação)
+
 **Etapa 2**
   - Gerar um arquivo `sol-`+nome_instancia+`.dat` contendo a seguinte formatção:
     `custo total da solução`
@@ -99,6 +102,7 @@ para x= D caso o serviço seja o depósito, S caso seja outro serviço
      i= índice do servço. 0 para todo depósito
      j= primeira extremidade do serviço
      k= seguda extremidade do serviço
+
 **Etapa 3**
  - Gerar duas pastas no dirtório indicado no Drive: G16-Estaísticas e G16-Sol
  - Inserir todos os arquivos relacionados às estatísticas dos grafos em G16-Estatísticas
