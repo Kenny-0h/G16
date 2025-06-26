@@ -13,6 +13,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 - `visualização.ipynb`: contém a implementação relacionada à visualização dos dados.
 - Arquivos `.dat`: contém os dados do grafo a ser lido.
 - Saída no terminal e exportação das estatísticas para CSV.
+
 ### Etapa 2
 - Nesta etpa, todo o projeto foi unificado em único [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) do Google Colab (também salvo como Grafos_projeto.ipynb do diretório) que é dividido da seguinte forma.:
 - grafo.py: contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo, bem como o cálculo das rotas
