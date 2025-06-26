@@ -5,6 +5,8 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
   
   A segunda tem como objetivo encontrar uma aprximação incial de um conjunto de rotas factíveis que solucionam o problema do caixeiro viajante no grafo misto dado em tempo mínimo. Nesta etapa, a qualidade da resposta é desfavorefida em função á um melor gasto temporal.
 
+  A terceira etapa tem como objetivo aplicar melhorias na solução adquirida na etapa anterior,bem como corrigir os erros cometidos. A melhora aplicada foi uma Busca Local baseada em trocas de serviçoes entre rotas de um mesmo grafo.
+
 ## 📂 Estrutura do Projeto
 ### Etapa 1
 - `main.py` (arquivo principal): contém a implementação da classe `Grafo`, as funções de leitura de arquivo e geração de estatísticas.
@@ -16,10 +18,16 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 - grafo.py: contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo, bem como o cálculo das rotas
 - lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada
 - visualização.ipynb: coném a implementação relacionada á vizualização das estatísticas do grafo (comentadas) e a geração do arquivo `sol-` de cada instância (saída única)
-
+### Etapa 3
+- Nesta etapa, o projeto ainda se mantém unificado no [notebook](https://) do Google Colab (Ainda salvo no diretório principal do Projeto), e segue divido da seguinte forma:
+- grafo.py : contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo;
+- lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada;
+- gerarRotas.py: contém a heurística de cálculo inicial das rotas da etapa anterior;
+- buscaLocal.py: contém a função relacionada a búsca local `busca_local` bem como sua auxiliar `calcular_custo_rota`;
+- - visualização.ipynb: coném toda a integração das demais partes do programa, bem como toda a perte responsável pela gravação dos arquivos das soluções;
 **OBS:** Caso não seja possível abrir o notebook pelo colab, o projeto também está disposto como arquivos separados no diretório
 ## 📥 Entrada Esperada
-O programa espera um arquivo `.dat` com seções identificadas pelas palavras-chave:
+Com as modificações aplicadas na Etapa 3, o programa espera um conjunto de arquivos `.dat` alocados em um mesmo diretório, com seções identificadas pelas palavras-chave:
 
 - `ReN.` – Início da seção de nós requeridos.
 - `ReE.` – Início da seção de arestas requeridas.
@@ -49,7 +57,7 @@ Cada seção deve conter linhas com os dados de acordo com o seguinte formato:
 - Diâmetro do grafo
 - Intermediação de vértices
 
-### 🚚 Rotas
+### 🚚 Rotas (Melhoras pela Etapa 3)
 - Custo total das rotas para atender todos os serviços requeridos
 - Número de rotas necessárias
 - Clock total do programa (tempoTotal *3.0 * 1e9)
@@ -62,12 +70,14 @@ Ao final do programa, é gerado um arquivo csv contendo uma tabela com as princi
 **Etapa 2**
 Ao final do programa, é gerado um arquivo de formatação `sol-`+nome_instancia+`.dat`
 
+**Etapa 3**
+Ao final do programa, são gerados duas pastas no diretório drive/MyDrive/ProjetoGrafos no Drive, no qual uma das pastas possui os arquivos relacionados as estatísticas e na outra, os arquivos relacionados às soluções encontradas; 
 ## ▶️ Como Usar
-1. Acesse o google cola pelo link do [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) e execut todas as partes do programa ou então execute o script:
+1. Acesse o google colab pelo link do [notebook](https://)  (ou então abra manualmente o arquivo unificado do projeto no colab) e execute todas as partes do programa ou então execute o script:
 ```bash
 python visualização.ipynb
 ```
-2. Pelo terminal gerado pela cédula `visualização`, digite  nome do arquivo '.dat' quando solicitado(Não é necessário que insira a extensão .dat do arquivo)
+2. Pelo terminal gerado pela cédula `visualização`, digite todo o caminho do diretório em que os arquivos `.dat` estão quando solicitado
 
 3. O programa irá:
 **Etapa 1**
@@ -85,7 +95,12 @@ para x= D caso o serviço seja o depósito, S caso seja outro serviço
      i= índice do servço. 0 para todo depósito
      j= primeira extremidade do serviço
      k= seguda extremidade do serviço
-    
+**Etapa 3**
+ - Gerar duas pastas no dirtório indicado no Drive: G16-Estaísticas e G16-Sol
+ - Inserir todos os arquivos relacionados às estatísticas dos grafos em G16-Estatísticas
+ - Inserir todos os arquivos relacionados às soluções encontradas em G16-Sol
+
+
 ## 📚 Bibliotecas Utilizadas
   - collections (para defaultdict e deque)
   - math
