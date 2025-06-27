@@ -16,7 +16,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 
 ### Etapa 2
-- Nesta etpa, todo o projeto foi unificado em único [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) do Google Colab (também salvo como Grafos_projeto.ipynb do diretório) que é dividido da seguinte forma.:
+- Nesta etapa, todo o projeto foi unificado em único [notebook](https://colab.research.google.com/drive/1fmRf6RJuSCepaBqJSvrDy9Gjikoc1NRb?usp=drive_link) do Google Colab (também salvo como Grafos_projeto.ipynb do diretório) que é dividido da seguinte forma.:
 - grafo.py: contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo, bem como o cálculo das rotas
 - lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada
 - visualização.ipynb: coném a implementação relacionada á vizualização das estatísticas do grafo (comentadas) e a geração do arquivo `sol-` de cada instância (saída única)
@@ -25,9 +25,10 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 ### Etapa 3
 - Nesta etapa, o projeto ainda se mantém unificado no [notebook](https://) do Google Colab (Ainda salvo no diretório principal do Projeto), e segue divido da seguinte forma:
 - grafo.py : contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo;
-- lerarquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada;
+- manipularArquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada e pela criação dos arquivos `cvs` com as estatísticas;
 - gerarRotas.py: contém a heurística de cálculo inicial das rotas da etapa anterior;
 - buscaLocal.py: contém a função relacionada a búsca local `busca_local` bem como sua auxiliar `calcular_custo_rota`;
+- depuradorDemanda.py: contém teste de depuração dos valores de damanda de cada rota;
 - - visualização.ipynb: coném toda a integração das demais partes do programa, bem como toda a perte responsável pela gravação dos arquivos das soluções;
 **OBS:** Caso não seja possível abrir o notebook pelo colab, o projeto também está disposto como arquivos separados no diretório
 ## 📥 Entrada Esperada
@@ -61,7 +62,7 @@ Cada seção deve conter linhas com os dados de acordo com o seguinte formato:
 - Diâmetro do grafo
 - Intermediação de vértices
 
-### 🚚 Rotas (Melhoras pela Etapa 3)
+### 🚚 Rotas (Melhoradas pela Etapa 3)
 - Custo total das rotas para atender todos os serviços requeridos
 - Número de rotas necessárias
 - Clock total do programa (tempoTotal *3.0 * 1e9)
@@ -107,13 +108,14 @@ para x= D caso o serviço seja o depósito, S caso seja outro serviço
  - Gerar duas pastas no dirtório indicado no Drive: G16-Estaísticas e G16-Sol
  - Inserir todos os arquivos relacionados às estatísticas dos grafos em G16-Estatísticas
  - Inserir todos os arquivos relacionados às soluções encontradas em G16-Sol
-
+ - Imprimir os diretórios nos quais os arquivos foram salvos
 
 ## 📚 Bibliotecas Utilizadas
   - collections (para defaultdict e deque)
   - math
   - pandas (para exportar estatísticas em formato CSV)
   - os (para manipular diretórios)
+  - copy
 
 ## 📌 Bibliografia e Referências
 https://www.programiz.com/dsa/floyd-warshall-algorithm
