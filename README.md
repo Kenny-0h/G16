@@ -24,12 +24,12 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 ### Etapa 3
 - Nesta etapa, o projeto ainda se mantém unificado no [notebook](https://) do Google Colab (Ainda salvo no diretório principal do Projeto), e segue divido da seguinte forma:
-- grafo.py : contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo;
-- manipularArquivo.py: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada e pela criação dos arquivos `cvs` com as estatísticas;
-- gerarRotas.py: contém a heurística de cálculo inicial das rotas da etapa anterior;
-- buscaLocal.py: contém a função relacionada a búsca local `busca_local` bem como sua auxiliar `calcular_custo_rota`;
-- depuradorDemanda.py: contém teste de depuração dos valores de damanda de cada rota;
-- - visualização.ipynb: coném toda a integração das demais partes do programa, bem como toda a perte responsável pela gravação dos arquivos das soluções;
+- grafo : contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo;
+- manipularArquivo: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada e pela criação dos arquivos `cvs` com as estatísticas;
+- gerarRotas: contém a heurística de cálculo inicial das rotas da etapa anterior;
+- buscaLocal: contém a função relacionada a búsca local `busca_local` bem como sua auxiliar `calcular_custo_rota`;
+- depuradorDemanda: contém teste de depuração dos valores de damanda de cada rota;
+- - main: coném toda a integração das demais partes do programa, bem como toda a perte responsável pela gravação dos arquivos das soluções;
 **OBS:** Caso não seja possível abrir o notebook pelo colab, o projeto também está disposto como arquivos separados no diretório
 ## 📥 Entrada Esperada
 Com as modificações aplicadas na Etapa 3, o programa espera um conjunto de arquivos `.dat` alocados em um mesmo diretório, com seções identificadas pelas palavras-chave:
