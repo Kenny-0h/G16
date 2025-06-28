@@ -1,5 +1,5 @@
 # Projeto_Grafos
-Repositório destinado para as entregas das etapas do trabalho prático da disciplina de Grafos do grupo G16, integrado por: `Kennedy`. 
+[Repositório](https://github.com/Kenny-0h/G16-ProjetoGrafos-Caixeiro_Viajante) destinado para as entregas das etapas do trabalho prático da disciplina de Grafos do grupo G16, integrado por: `Kennedy`. 
  
   A primeira etapa tem como objetivo ler, representar e analisar grafos com arestas e arcos que podem ser requeridos ou não, cada um com seus atributos de transporte, demanda e custo de serviço. O grafo é lido a partir de um arquivo `.dat` estruturado, e várias estatísticas são calculadas automaticamente.
   
