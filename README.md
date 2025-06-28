@@ -23,7 +23,7 @@ Repositório destinado para as entregas das etapas do trabalho prático da disci
 
 
 ### Etapa 3
-- Nesta etapa, o projeto ainda se mantém unificado no [notebook](https://) do Google Colab (Ainda salvo no diretório principal do Projeto), e segue divido da seguinte forma:
+- Nesta etapa, o projeto ainda se mantém unificado no [notebook](https://drive.google.com/file/d/1Xn6aniumZT2zc3WLtc6BUKDgkafo8kTc/view?usp=sharing) do Google Colab (Ainda salvo no diretório principal do Projeto), e segue divido da seguinte forma:
 - grafo : contem a implementação da classe `grafo`, os cálculos estatísticos relacionados ao grafo;
 - manipularArquivo: contém todo o trecho de código responsável pela leitura dos arquivos `.dat` de entrada e pela criação dos arquivos `cvs` com as estatísticas;
 - gerarRotas: contém a heurística de cálculo inicial das rotas da etapa anterior;
@@ -79,11 +79,12 @@ Ao final do programa, é gerado um arquivo de formatação `sol-`+nome_instancia
 **Etapa 3**
 Ao final do programa, são gerados duas pastas no diretório drive/MyDrive/ProjetoGrafos no Drive, no qual uma das pastas possui os arquivos relacionados as estatísticas e na outra, os arquivos relacionados às soluções encontradas; 
 ## ▶️ Como Usar
-1. Acesse o google colab pelo link do [notebook](https://)  (ou então abra manualmente o arquivo unificado do projeto no colab) e execute todas as partes do programa ou então execute o script:
+1. Acesse o google colab pelo link do [notebook](https://drive.google.com/file/d/1Xn6aniumZT2zc3WLtc6BUKDgkafo8kTc/view?usp=sharing)  (ou então abra manualmente o arquivo unificado do projeto no colab) e execute todas as partes do programa ou então faça:
+- Abra o terminal de uma máquina que possua o python e o pandas instalos e, dentro do diretório do projeto com todos os arquivos do projeto, digite o comando:
 ```bash
-python visualização.ipynb
+python3 main.py
 ```
-2. Pelo terminal gerado pela cédula `visualização`, digite todo o caminho do diretório em que os arquivos `.dat` estão quando solicitado
+2. O terminal irá solicitar o caminho do diretório em que os aquivos de entrada `.dat` estão armazenados;
 
 3. O programa irá:
 
@@ -105,10 +106,9 @@ para x= D caso o serviço seja o depósito, S caso seja outro serviço
      k= seguda extremidade do serviço
 
 **Etapa 3**
- - Gerar duas pastas no dirtório indicado no Drive: G16-Estaísticas e G16-Sol
+ - Gerar uma pasta `Saidas` e mais duas pastas internas chamadas `G16-Sol` e `G16-estatisticas`;
  - Inserir todos os arquivos relacionados às estatísticas dos grafos em G16-Estatísticas
  - Inserir todos os arquivos relacionados às soluções encontradas em G16-Sol
- - Imprimir os diretórios nos quais os arquivos foram salvos
 
 ## 📚 Bibliotecas Utilizadas
   - collections (para defaultdict e deque)
